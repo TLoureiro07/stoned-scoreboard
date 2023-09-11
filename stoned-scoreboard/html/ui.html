@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>SERVER NAME</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="scoreboard-block">
+                <div class="scoreboard-header">
+                    <div class="logo"><p>SERVER NAME</p></div>
+                </div>
+                <div class="scoreboard-info">
+                    <div class="scoreboard-info-beam" style="background: #1d1d1d;">
+                        <div class="info-beam-title" id="info-tab-label"><p>Information</p></div>
+                        <div class="info-beam-status" id="status-tab-label"><p>Status</p></div>
+                    </div>
+                </div>
+                <div class="scoreboard-info">
+                    <div class="scoreboard-info-beam" id="storerobbery">
+                        <div class="info-beam-title"><p>🛒| Shop Robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" id="bankrobbery">
+                        <div class="info-beam-title"><p>🔫| Weapon Shop Robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" id="jewellery">
+                        <div class="info-beam-title"><p>💎| Jewellery Robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" id="pacific">
+                        <div class="info-beam-title"><p>💰| Bank Robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" id="inem">
+                        <div class="info-beam-title"><p>👨‍⚕️| Ambulance</p></div>
+                        <div class="info-beam-status" id="INEM">
+                            <i class="fas fa-times"></i>
+                            <span class="paramedics-count"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="scoreboard-info-beam" style="font-weight: bolder;">
+                        <div class="info-beam-title"><p>🏃‍♂️| Players Online</p></div>
+                        <div class="info-beam-status" style="font-weight: normal;" id="total-players"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
